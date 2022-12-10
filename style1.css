@@ -1,0 +1,625 @@
+/*.box-sizing:border-box{
+
+}*/
+
+
+
+body{
+    background-color: #f1f3f6;
+    font-family: Roboto,Arial, sans-serif;
+}
+
+#coupon{
+    height:800px;
+    width:700px;
+    background-image: url(m2/black-friday-ccode.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-left:20%;
+    position:absolute;
+    z-index: 100;
+    margin-top: -140%;
+    visibility:hidden;
+}
+
+#couponclose-btn{
+    height:25px;
+    width:25px;
+    border: none;
+    background-color: #878787;
+    color:white;
+    font-size: 20px;
+    margin:5px;
+    transition: all 200ms ease;
+}
+
+#couponclose-btn:hover{
+    transform:scale(1.15);
+}
+
+.darkmode{
+    background-color: black;
+}
+
+.darkmode-button{
+    height: 37px;
+    margin-top: 14px ;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #2874f0;
+    color: white;
+    min-width: 120px;
+    font-size: 14px;
+    border: none;
+
+}
+
+.header-strip{
+    height:70px;
+}
+
+.space-cont{
+    width:150px;
+    margin-left:35px;
+    margin-right:10px;
+}
+
+nav a, span{
+    font-weight: 500;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+}
+
+nav a span{
+
+    color: #fae206;
+}
+
+nav a .bi-star{
+
+    color: #fae206;
+    
+}
+.search-form{
+    width:30%;
+    height: 35px;
+    border-radius: 3px;
+    border:none;
+}
+
+.search-form input[type=text]  {
+    height: 37px;
+    border-radius: 3px;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.search-form input:focus{
+      outline:none;
+
+}
+
+.search-form .input-group-btn{
+
+    background-color: #fff;
+    width:8%;
+    height: 37px;
+    border-radius: 3px;
+    border:none;
+}
+
+.search-form .bi-search{
+
+    color:#2874f0;
+}
+
+.new-cust{
+    font-weight:600;
+    font-style: normal;
+    font-size:14px;
+}
+
+.myprofile, .pluszone, .orders, .wishlist, .rewards, .giftcards, .dropdown-menu a{
+
+    font-weight:500;
+    font-style: normal;
+    font-size:14px;
+    
+}
+
+ .dropdown-content a  .bi-person-circle, .bi-wallet-fill, .bi-gift-fill, .bi-heart-fill, .bi-envelope-paper-heart{
+    color:#2874f0;
+    margin-right:20px;
+
+ }
+
+ .dropdown-content a .bi-star{
+    background-color:#2874f0;
+    margin-right:20px;
+ }
+
+ .login-btn{
+
+
+    height: 37px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+    background-color: white;
+    color:#2874f0;
+    min-width: 120px;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left:3px;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 251px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+   .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f3f5;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: white;}
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 251px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+   .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-menu a:hover {background-color: #f1f3f5;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-menu {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropdown-menu{background-color: white;}
+
+.caret.caret-up {
+    border-top-width: 0;
+    border-bottom: 4px solid #fff;
+  }
+
+.bi-cart4{
+    color: #fff;
+    width:10px;
+    height:28px;
+     
+}
+
+.shop-cart{
+    margin-left:3px;
+}
+.cart{
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    font-style: normal;
+    text-decoration: none;
+}  
+
+.cart:hover{
+    color:#fff;
+}
+
+#geoButton{
+    height: 37px;
+    margin-top: 14px ;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #2874f0;
+    color: white;
+    min-width: 120px;
+    font-size: 14px;
+    border: none;
+    
+}
+
+.geolocation{
+    flex-direction: row;
+    height:37px;
+    border:2px solid red;
+    width:32%;
+    margin-left:50%;
+    margin-top:5px;
+}
+
+#geoSize{
+    height:35px;
+     width:310px;
+    
+    border:2px solid green;
+    margin-top:12px;
+
+}
+
+#weather{
+    color:yellow;
+    font-size: 18px;
+
+}
+
+#out{
+    visibility:hidden;
+    font-size:18px;
+}
+#strip-top{
+    height:210px;
+    width:100%;
+    background-color:white;
+    padding-top:90px;
+    padding-left:50px;
+    display:inline-block;
+    align-items:center;
+    margin-bottom:10px;
+    
+   
+}
+
+.icons{
+    height:100%;
+    margin-top:10px;
+    display:inline-block;
+    margin-left:0px;
+    align-items: center;
+
+}
+
+.first-icon{
+    margin-left:80px
+}    
+
+.icons img{
+    height:60px;
+    width:70px;
+    
+}
+
+.icons a{
+    font-weight:600;
+    font-size:12px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.icons a:hover{
+    color: #2874f0
+}
+
+
+
+/*div .s_cont{
+    width:99%;
+    height:11406px;
+    padding: 0px;
+    
+}*/
+
+.s_main1{
+    height:320px;
+    margin-top:8px;
+    width:100%;
+    margin-bottom: 14px;
+    
+}
+
+.s_main2{
+    height: 320px;
+    margin-top:8px;
+    
+    margin-left: 12px;
+    border-top: 1px solid #ebebeb;
+    background-color:#fff;;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.1);
+    }
+ 
+ 
+.s-bg-image-2{
+    height:320px;
+    width:200px;
+    background-image: url(/m2/m2-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}   
+
+.s_main2-m2-text{    
+    
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 150px;
+}
+
+
+.view-btn{
+    margin-left: 40px;
+    margin-right: 50px;
+    width:100px;
+}
+
+.s-bcright {
+    height:320px;
+    width:200px;
+    margin-right: 8px;
+    
+} 
+
+/*.s-tv-bcwhite{
+
+        height:226px;
+        width:220px;
+        margin-right: 18px;
+    }*/
+
+.cbox{
+    /* height:320px; */
+    display:inline-block;
+    padding:0;
+    overflow: visible;
+    /* border: 1px solid green; */
+}
+
+.s-m2strip{
+
+        height:150px;
+        flex-direction: row;
+        /* border:1px solid red; */
+        margin-left: 50px;
+        margin-right: 20px;
+           
+}    
+
+    .s-m2strip-text{
+        font-size: 12px;
+        font-weight: 600;
+        width:200px;
+        padding:6px;
+        margin-top:5px;
+        text-align: center;
+        word-wrap: normal;
+        
+    }
+
+.s_main3{
+
+    height:320px;
+    margin-top:13px;
+    /* border:1px dashed orange; */
+    background-color:#fff;;
+}
+
+
+.s-bg-image-3{
+    height:320px;
+    width:200px;
+    background-image: url(/m2/m3-1kitchen.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}   
+
+
+.s_main4{
+    height:320px;
+    margin-top:13px;
+    background-color: #fff;
+}
+
+.s-bg-image-4{
+    height:320px;
+    width:200px;
+    background-image: url(/m2/m4-Fashiondeals.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s-bg-image-5{
+    height:320px;
+    width:200px;
+    background-image: url(/m2/m5-furniture1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s_main5{
+    height:320px;
+    margin-top:14px;
+    /* border:1px dashed purple; */
+    background-color: #fff;
+}
+
+.s_main6{
+    height:320px;
+    margin-top:13px;
+    /* border:1px solid red; */
+    background-color: #fff;
+    
+
+}
+
+.s-bg-image-6{
+    height:320px;
+    width:200px;
+    background-image: url(/m2/m6-newyeargifts.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s_main6-m6-text{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 120px;
+
+
+}
+
+
+
+/* .s_main7{
+    height: 433px;
+    margin-top: 13px;
+    background-color: #fff;
+    border:1px solid yellow;
+}
+
+.s_main8{
+    height: 427px;
+    margin-top: 13px;
+    background-color: #fff;
+    border:1px solid rgb(0, 255, 89);
+}
+
+.s_main9{
+    height: 427px;
+    margin-top: 14px;
+    background-color: #fff;
+    border:1px solid rgb(255, 0, 174);
+}
+
+.s_main10{
+    height: 426px;
+    margin-top: 14px;
+    background-color: #fff;
+    border:1px solid rgb(255, 187, 0);
+}
+
+.s_main11{
+    height: 430px;
+    margin-top: 14px;
+    background-color: #fff;
+    border:1px solid rgb(0, 26, 255);
+
+}
+
+.s_main12{
+    height: 4px;
+    margin-top: 13px;
+    background-color: #fff;
+    border:1px solid rgb(255, 85, 0);
+
+}
+
+.s_main13{
+    height: 428px;
+    margin-top: 13px;
+    background-color: #fff;
+    border:1px solid rgb(123, 255, 0);
+
+}
+
+.s_main14{
+    height: 428px;
+    margin-top: 15px;
+    background-color: #fff;
+    border:1px solid yellow;
+
+}
+
+.smain15{
+    height: 430px;
+    margin-top: 14px;
+    background-color: #fff;
+    border:1px solid rgb(255, 0, 128);
+
+} */
+
+footer{
+    height:380px;
+    margin-top: 13px;
+    background-color: #172337;
+}
+
+footer p{
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+     text-decoration: none;
+}
+
+.footer-headings{
+
+    font-weight: 500;
+    color:grey;
+}
+
+footer a{
+    line-height: 2;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+    footer a:hover{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.normal-line-height p{
+    line-height: 1.2;
+}
+
+.becomeseller{
+    width:165px;   
+    flex-direction: row; 
+   
+}
+.line{
+    color:#fff;
+}
+
+.paymentmethod{
+    
+    width:fit-content;
+}

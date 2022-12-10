@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+          
+  <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</title>
+  
+  <link rel="shortcut icon" href="favicon-fp.png"/>
+  
+  <link href="style1.css" rel="stylesheet">
+
+  <script src="index1.js"></script>
+ 
+</head>
+
+<body>    
+
+  <script>
+
+    const changeMode=() => {
+      let mybody = document.body;
+      mybody.classList.toggle("darkmode")
+    }
+  </script>
+
+
+<!-- coupon main -->
+  <div id="Main">
+
+
+    <!-- header -->
+  <nav class="navbar navbar-expand-lg fixed-top header-strip" style="background-color:#2874f0">
+        
+       <div class="container space-cont">
+    <a class="navbar-brand text-white fs-6 lh-1 text-decoration-underline" href="#" >
+      <img src="flipkart-logo.png" alt="flipkartlogo" title="Flipkart" width="75px"><br>
+      Explore<span class="text-decoration-underline">Plus</span><i class="bi bi-star"></i>
+    </a>
+  </div>
+  
+    <form class="search-form" action="action_page.php">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search products, brands and more..." name="search">
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <ul class="navbar-nav mx-1">
+    
+    <li class="nav-item">
+        <div class="dropdown nav-link">
+          <button class="dropbtn login-btn mt-2 py-1">Login</button>
+          <div class="dropdown-content " style="background-color:white" >
+            <a class="new-cust fw-600" href="#">New customer?</a> 
+            <a class="myprofile" href="#">
+            <i class="bi bi-person-circle ms-1"></i>MyProfile
+            </a>
+            <a class="pluszone"href="#">
+            <i class="bi bi-star"></i>Flipkart Plus Zone</a>
+            <a class="orders" href="#"><i class="bi bi-wallet-fill"></i>Orders</a>
+            <a class="wishlist"href="#"><i class="bi bi-heart-fill"></i>Wishlist</a>
+            <a class="rewards" href="#"><i class="bi bi-envelope-paper-heart"></i>Rewards</a>
+            <a class="giftcards"href="#"><i class="bi bi-gift-fill"></i>Gift Cards</a>
+          </div>
+        </div>
+     </li>
+    
+    
+     <li class="nav-item">
+      <div class="More-cont">
+       <div class="dropdown nav-link">
+        <button class="btn dropdown-toggle background-color:#2874f0 text-white mt-1" type="button" data-toggle="dropdown">More
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Notification Preferences</a></li>
+          <li><a href="#">24 X 7 Customer Care</a></li>
+          <li><a href="#">Advertisement</a></li>
+          <li><a href="#">Download App</a></li>
+        </ul>
+      </div>
+    </div>
+    </li>
+    
+    
+    <div class="nav-item d-flex shop-cart mt-3">
+      <i class="bi bi-cart4 "></i>
+      <a class="cart nav-link px-2" href="#">Cart</a>
+    </div>
+    
+    
+    <div>
+      <button class="darkmode-button" onclick="changeMode()">Dark Mode</button>
+    </div> 
+    
+    
+    <div class="geoLocation d-flex">
+      <div id="geoSize " > 
+        <span id="out"></span> 
+        <span id="weather"></span>
+       </div>
+      <button id="geoButton" onclick="geolocation()">Get Location</button> 
+     </div>  
+      
+
+  </nav>
+  
+  <!-- top strip of icons -->
+<div id="strip-top" class="row ms-auto">
+  <div class="col-1 icons  first-icon">
+    <a href="#">
+      <img src="https://i.ibb.co/PZvWQpp/grocery.png" alt="Appliances" >
+      <p>Groceries</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/841BWhf/mobiles.png" alt="Appliances" >
+      <p>Mobiles</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/Gttdysz/fsahion.png" alt="Appliances" >
+      <p>Fashion</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/Y2D9BrJ/electronics.png" alt="Appliances" >
+      <p>Electronics</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/jMBXRkM/home.jpg" alt="Appliances" >
+      <p>Home</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+    <img src="https://i.ibb.co/HHMThkD/appliance.png" alt="Appliances" >
+    <p>Appliances</p>
+    </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/4jgbhw4/travel.png" alt="Appliances" >
+      <p>Travel</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/Xx49LBX/top-offers.png" alt="Appliances" >
+      <p>TopOffers</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="#">
+      <img src="https://i.ibb.co/4Zhh6Dc/toys.png" alt="Appliances" >
+      <p>Beauty,toys,..</p>
+      </a>
+  </div>
+  <div class="col-1 icons">
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/bWTGn1y/flipkart2wheeler.webp" alt="flipkart2wheeler" border="0">
+      <p>2Wheelers</p>
+    </a>
+  </div>
+
+</div>
+<!-- All containers wrapped -->
+  <div class="container-fluid s_cont">
+  
+    <!-- container1 slider -->
+    <div class="s_main1">
+  
+      <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="3000" >
+              <img src="carouselmobile.png" class="d-block w-100" alt="mobilepaperslider" height="320px">
+            </div>
+       
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="mattress.png" class="d-block w-100" alt="mattressslider" height="320px">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="gaming-laptop.jpeg" class="d-block w-100" alt="laptopslider" height="320px">
+            </div>
+    
+            <div class="carousel-item">
+              <img src="airplane.png" class="d-block w-100" alt="thirdslider" height="320px">
+            </div>
+        
+          <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+      </div>
+    </div>
+
+<!-- containerr 2 -->
+    <div class="s_main2">
+      <div class="row " >
+        
+            <div class="col-lg-2 s-bg-image-2">
+              <div >
+                <h3 class="text-center text-black s_main2-m2-text">Best Of Electronics</h3>
+                <a href="#"><button class="btn btn-primary text-white view-btn">View All</button></a>
+              </div>     
+           </div>
+           
+           <div class="col-lg-8" style="width:85%">
+            
+            <div id="mycarousel2" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                 
+                  <div class="row">
+                      <div class="col cbox">
+
+                        <a href="#" style="text-decoration:none" >
+                          <img  src="/m2/m2-2mobileholder.webp"  alt="mobileholder" style="height:150px width=150px" class=" d-flex flex-fill s-m2strip my-3 " >
+                          <div class=" text-black s-m2strip-text  " style="margin-top:12px">Top Deals of Camera Accessories...</div>
+                          <div class=" text-success s-m2strip-text">Shop Now</div>
+                          <div class=" s-m2strip-text" style="color:gray">Tripods, Gimbals, Bags..</div>
+                        </a>
+
+                      </div>
+                    
+                    
+
+                    
+                      <div class="col cbox">
+
+                        <a href="#" style="text-decoration:none" >
+                          <img  src="/m2/m2-2camera.webp"  alt="mobileholder" style="height:150px width=150px" class=" d-flex  flex-fill  s-m2strip  my-3 "  >
+                          <div class=" text-black s-m2strip-text  " style="margin-top:12px">Top Mirrorless Cameras</div>
+                          <div class=" text-success s-m2strip-text">Shop Now</div>
+                          <div class=" s-m2strip-text" style="color:gray">Canon,Sony,Fujifilm</div>
+                        </a>
+
+                      </div>
+                    
+                      
+
+                    
+                      <div class="col cbox">
+
+                        <a href="#" style="text-decoration:none"  >
+                          <img  src="/m2/m2-2tel.webp"  alt="mobileholder" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                          <div class=" text-black s-m2strip-text  " style="margin-top:12px">Monitors</div>
+                          <div class=" text-success s-m2strip-text">From $7949</div>
+                          <div class=" s-m2strip-text" style="color:gray">Lenovo</div>
+                        </a>
+
+                      </div>
+                    
+                    
+                      <div class="col cbox ">
+
+                        <a href="#" style="text-decoration:none "  >
+                          <img  src="/m2/m2-2projector.webp"  alt="mobileholder" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                          <div class=" text-black s-m2strip-text  " style="margin-top:12px">Projectors</div>
+                          <div class=" text-success s-m2strip-text">From $9999</div>
+                          <div class=" s-m2strip-text" style="color:gray">Zebronics</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div> 
+                </div>  
+                <button class="carousel-control-prev" style="width:50px" type="button" data-bs-target="#mycarousel2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon btn1 " aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " style="width:50px" type="button" data-bs-target="#mycarousel2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon btn1" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>  
+             </div>           
+           
+        <!-- <div class="col-lg-2" >
+          <a href="#">
+            <img class=" img-thumbnail s-bcright " src="/m2/m2-right.webp"  alt="BestofElectronics">
+          </a>
+        </div> -->
+      
+    </div>
+
+    <!-- container 3 -->
+    <div class="s_main3">
+
+      <div class="row " >
+        
+        <div class="col-lg-2 s-bg-image-3">
+          <div >
+            <h3 class="text-center text-black s_main2-m2-text">Home & Kitchen Essentials</h3>
+            <a href="#"><button class="btn btn-primary text-white view-btn">View All</button></a>
+          </div>     
+       </div>
+       
+       <div class="col-lg-8" style="width:85%">
+        
+        <div id="mycarousel2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             
+              <div class="row">
+                  <div class="col cbox">
+
+                    <a href="#" style="text-decoration:none" >
+                      <img  src="/m2/m3-clock.webp"  alt="clock" style="height:150px width=150px" class=" d-flex flex-fill s-m2strip my-3 " >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Clocks</div>
+                      <div class=" text-success s-m2strip-text">Upto 80% Off</div>
+                      <div class=" s-m2strip-text" style="color:gray">Big Discounts</div>
+                    </a>
+
+                  </div>
+                
+                
+                  <div class="col cbox">
+
+                    <a href="#" style="text-decoration:none" >
+                      <img  src="/m2/m3-showpiece.webp"  alt="showpiece" style="height:150px width=150px" class=" d-flex  flex-fill  s-m2strip  my-3 "  >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Showpieces</div>
+                      <div class=" text-success s-m2strip-text">Upto 80% Off</div>
+                      <div class=" s-m2strip-text" style="color:gray">Big Discounts</div>
+                    </a>
+
+                  </div>
+                
+                
+                  <div class="col cbox">
+
+                    <a href="#" style="text-decoration:none"  >
+                      <img  src="/m2/m3-bulbs.webp"  alt="bulbs" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Bulbs</div>
+                      <div class=" text-success s-m2strip-text">Upto 80% Off</div>
+                      <div class=" s-m2strip-text" style="color:gray">Big Discounts</div>
+                    </a>
+
+                  </div>
+                
+                
+                  <div class="col cbox ">
+
+                    <a href="#" style="text-decoration:none "  >
+                      <img  src="/m2/m3-bedcovers.webp"  alt="bedcovers" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Bed Covers</div>
+                      <div class=" text-success s-m2strip-text">From $199</div>
+                      <div class=" s-m2strip-text" style="color:gray">Trendy Collections</div>
+                    </a>
+                  </div>
+                </div>
+              </div> 
+            </div>  
+            <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mycarousel2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>  
+         </div>           
+       
+    <!-- <div class="col-lg-2" >
+      <a href="#">
+        <img class=" img-thumbnail s-bcright " src="/m2/m2-right.webp"  alt="BestofElectronics">
+      </a>
+    </div> -->
+  
+</div>
+
+<!-- container 4 -->
+    <div class="s_main4">
+      <div class="row " >
+        
+        <div class="col-lg-2 s-bg-image-4">
+          <div >
+            <h3 class="text-center text-black s_main2-m2-text">Fashion Best Sellers</h3>
+            <a href="#"><button class="btn btn-primary text-white view-btn">View All</button></a>
+          </div>     
+       </div>
+       
+       <div class="col-lg-8" style="width:85%">
+        
+        <div id="mycarousel2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             
+              <div class="row">
+                  <div class="col cbox">
+
+                    <a href="#" style="text-decoration:none" >
+                      <img  src="/m2/m4-Bag.webp"  alt="Bag" style="height:150px width=150px" class=" d-flex flex-fill s-m2strip my-3 " >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Safari Wildcrats, Aristocrat</div>
+                      <div class=" text-success s-m2strip-text">Min 65% Off</div>
+                      <div class=" s-m2strip-text" style="color:gray">Cool Bagpacks</div>
+                    </a>
+
+                  </div>
+                
+                
+                  <div class="col cbox">
+
+                    <a href="#" style="text-decoration:none" >
+                      <img  src="/m2/m4-shoes.webp"  alt="shoes" style="height:150px width=150px" class=" d-flex  flex-fill  s-m2strip  my-3 "  >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Levis,Fying Machine & More</div>
+                      <div class=" text-success s-m2strip-text">Upto 50% Off</div>
+                      <div class=" s-m2strip-text" style="color:gray">Men's Sneakers</div>
+                    </a>
+
+                  </div>
+                
+                
+                  <div class="col cbox">
+
+                    <a href="#" style="text-decoration:none"  >
+                      <img  src="/m2/m4-rings.webp"  alt="jewellery" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Fashion Jewellery</div>
+                      <div class=" text-success s-m2strip-text">From $99</div>
+                      <div class=" s-m2strip-text" style="color:gray">Best Deals</div>
+                    </a>
+
+                  </div>
+                
+                
+                  <div class="col cbox ">
+
+                    <a href="#" style="text-decoration:none "  >
+                      <img  src="/m2/m4-kurtis.webp"  alt="shalwarkurti" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                      <div class=" text-black s-m2strip-text  " style="margin-top:12px">Trendy Kurta Sets & More</div>
+                      <div class=" text-success s-m2strip-text">Min 75% Off</div>
+                      <div class=" s-m2strip-text" style="color:gray">Libas</div>
+                    </a>
+                  </div>
+                </div>
+              </div> 
+            </div>  
+            <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mycarousel2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>  
+         </div>           
+       
+    <!-- <div class="col-lg-2" >
+      <a href="#">
+        <img class=" img-thumbnail s-bcright " src="/m2/m2-right.webp"  alt="BestofElectronics">
+      </a>
+    </div> -->
+  
+</div>
+<!-- container 5 -->
+  <div class="s_main5">
+    
+    <div class="row " >
+      
+      <div class="col-lg-2 s-bg-image-5">
+        <div >
+          <h3 class="text-center text-black s_main2-m2-text">Furniture Best Sellers</h3>
+          <a href="#"><button class="btn btn-primary text-white view-btn">View All</button></a>
+        </div>     
+     </div>
+     
+     <div class="col-lg-8" style="width:85%">
+      
+      <div id="mycarousel2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           
+            <div class="row">
+                <div class="col cbox">
+
+                  <a href="#" style="text-decoration:none" >
+                    <img  src="/m2/m5-wardrobe.webp"  alt="wardrobe" style="height:150px width=150px" class=" d-flex flex-fill s-m2strip my-3 " >
+                    <div class=" text-black s-m2strip-text  " style="margin-top:12px">Wardrobe</div>
+                    <div class=" text-success s-m2strip-text">From $4999</div>
+                    <div class=" s-m2strip-text" style="color:gray">2,3,4, Door</div>
+                  </a>
+
+                </div>
+              
+                <div class="col cbox">
+
+                  <a href="#" style="text-decoration:none" >
+                    <img  src="/m2/m5-bed.webp"  alt="bed" style="height:150px width=150px" class=" d-flex  flex-fill  s-m2strip  my-3 "  >
+                    <div class=" text-black s-m2strip-text  " style="margin-top:12px">Best Selling Beds</div>
+                    <div class=" text-success s-m2strip-text">Upto 70% Off</div>
+                    <div class=" s-m2strip-text" style="color:gray">King, Queen & More</div>
+                  </a>
+
+                </div>
+              
+                <div class="col cbox">
+
+                  <a href="#" style="text-decoration:none"  >
+                    <img  src="/m2/m5-oneseater.webp"  alt="oneseater" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                    <div class=" text-black s-m2strip-text  " style="margin-top:12px">Recliner</div>
+                    <div class=" text-success s-m2strip-text">From $11,999</div>
+                    <div class=" s-m2strip-text" style="color:gray">Cozy Corners</div>
+                  </a>
+
+                </div>
+              
+                <div class="col cbox ">
+
+                  <a href="#" style="text-decoration:none "  >
+                    <img  src="/m2/m5-threeseater.webp"  alt="shalwarkurti" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                    <div class=" text-black s-m2strip-text  " style="margin-top:12px">Sofa & Sectional</div>
+                    <div class=" text-success s-m2strip-text">From $7,999</div>
+                    <div class=" s-m2strip-text" style="color:gray">Fabric & Leatherette</div>
+                  </a>
+                </div>
+              </div>
+            </div> 
+          </div>  
+          <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mycarousel2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+       </div>           
+     
+  <!-- <div class="col-lg-2" >
+    <a href="#">
+      <img class=" img-thumbnail s-bcright " src="/m2/m2-right.webp"  alt="BestofElectronics">
+    </a>
+  </div> -->
+
+</div>
+  
+  <!--container 6  -->
+  <div class="s_main6">
+      <div class="row " >
+          
+          <div class="col-lg-2 s-bg-image-6">
+            <div >
+              <h3 class="text-center text-black s_main6-m6-text">Wedding and Gifting Specials</h3>
+              <a href="#"><button class="btn btn-primary text-white view-btn">View All</button></a>
+            </div>     
+         </div>
+         
+         <div class="col-lg-8" style="width:85%">
+          
+          <div id="mycarousel2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               
+                <div class="row">
+                    <div class="col cbox">
+    
+                      <a href="#" style="text-decoration:none" >
+                        <img  src="/m2/m6-Paintings.webp " alt="paintings" style="height:150px width=150px" class=" d-flex flex-fill s-m2strip my-3 " >
+                        <div class=" text-black s-m2strip-text  " style="margin-top:12px">Paintings</div>
+                        <div class=" text-success s-m2strip-text">Min. 50% Off</div>
+                        <div class=" s-m2strip-text" style="color:gray">Hurry Up</div>
+                      </a>
+    
+                    </div>
+
+                    <div class="col cbox">
+    
+                      <a href="#" style="text-decoration:none" >
+                        <img  src="/m2/m6-candles.webp"  alt="candle holder" style="height:150px width=150px" class=" d-flex  flex-fill  s-m2strip  my-3 "  >
+                        <div class=" text-black s-m2strip-text  " style="margin-top:12px">Candle Holder</div>
+                        <div class=" text-success s-m2strip-text">Upto 50% Off</div>
+                        <div class=" s-m2strip-text" style="color:gray">Hurry Up</div>
+                      </a>
+    
+                    </div>
+  
+                  
+                    <div class="col cbox">
+    
+                      <a href="#" style="text-decoration:none"  >
+                        <img  src="/m2/m6-clutches.webp"  alt="clutches" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                        <div class=" text-black s-m2strip-text  " style="margin-top:12px">Clutches</div>
+                        <div class=" text-success s-m2strip-text">Min 70% Off</div>
+                        <div class=" s-m2strip-text" style="color:gray">Hurry Up</div>
+                      </a>
+    
+                    </div>
+                  
+                  
+                    <div class="col cbox ">
+    
+                      <a href="#" style="text-decoration:none "  >
+                        <img  src="/m2/m6-weddingjewellery.webp"  alt="Wedding Jewellery" style="height:150px width=150px" class=" d-flex flex-fill  s-m2strip my-3"  >
+                        <div class=" text-black s-m2strip-text  " style="margin-top:12px">Wedding Jewellery</div>
+                        <div class=" text-success s-m2strip-text">Upto 60% Off</div>
+                        <div class=" s-m2strip-text" style="color:gray">Hurry Up</div>
+                      </a>
+                    </div>
+                  </div>
+                </div> 
+              </div>  
+              <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#mycarousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>  
+           </div>           
+         
+      <!-- <div class="col-lg-2" >
+        <a href="#">
+          <img class=" img-thumbnail s-bcright " src="/m2/m2-right.webp"  alt="BestofElectronics">
+        </a>
+      </div> -->
+    
+    </div>
+  
+  </div>
+
+  
+<!--coupon main ends -->
+
+<!-- Footer Here -->
+
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col ms-3">
+        <p class="footer-headings mt-4  ">ABOUT</p>
+        <a href="/">Contact Us</a>
+        <a href="/">About Us</a>
+        <a href="/">Careers</a>
+        <a href="/">Flipkart Stories</a>
+        <a href="/">Press</a>
+        <a href="/">Flipkart Wholesale</a>
+        <a href="/">Corporate Information</a>
+      </div>
+      <div class="col">
+        <p class="footer-headings mt-4">HELP</p>
+        <a href="/">Payment</a>
+        <a href="/">Shipping</a>
+        <a href="/">Cancellation &amp; Returns</a>
+        <a href="/">FAQ</a>
+        <a href="/">Report Infringement</a>
+      </div>
+      <div class="col">
+        <p class="footer-headings mt-4">POLICY</p>
+        <a href="/">Return Policy</a>
+        <a href="/">Terms Of Use</a>
+        <a href="/">Security</a>
+        <a href="/">Privacy</a>
+        <a href="/">Sitemap</a>
+        <a href="/">EPR Compliance</a>
+      </div>  
+      <div class="col">
+        <p class="footer-headings mt-4">SOCIAL</p>
+        <a href="/">Facebook</a>
+        <a href="/">Twitter</a>
+        <a href="/">Youtuber</a>
+      </div>
+      <div class="col normal-line-height">
+        <p class="footer-headings mt-4">Mail Us</p>
+        <p>Flipkart Interrnet Private Limited</p>
+        <p>Buildings Alyssia, Begonia &amp;</p>
+        <p>Clove Embassy Tech Village</p>
+        <p>Outer Ring Road, </p>
+        <p>Devarabeesanahalli Village,</p>
+        <p>Bengaluru, 560103,</p>
+        <p>Karnataka, India</p>
+      </div>
+      <div class="col normal-line-height">
+        <p class="footer-headings mt-4 ">Registered Ofiice Address</p>
+        <p>Flipkart Interrnet Private Limited</p>
+        <p>Buildings Alyssia, Begonia &amp;</p>
+        <p>Clove Embassy Tech Village</p>
+        <p>Outer Ring Road, </p>
+        <p>Devarabeesanahalli Village,</p>
+        <p>Bengaluru, 560103,</p>
+        <p>Karnataka, India</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <hr class="line">
+  <div class=" row ">
+  <div class="col-2 d-flex becomeseller">
+    <img src="/m2/becomeseller.svg" class="ms-4 me-2 "><a  class="text-normal"href="#">Become a Seller</a>
+  </div>
+
+  <div class="col-2 d-flex becomeseller">
+    <img src="/m2/advertise.svg" class="ms-4 me-2 "><a  class="text-normal"href="#">Advertisement</a>
+  </div>
+
+<div class="col-2 d-flex becomeseller">
+  <img src="/m2/gift.svg" class="ms-4 me-2 "><a  class="text-normal"href="#">Gift Cards</a>
+</div>
+
+<div class="col-2 d-flex becomeseller">
+  <img src="/m2/helpcenter.svg" class="ms-4 me-2 "><a  class="text-normal"href="#">Help Center</a>
+</div>
+
+<div class="col-4 d-flex paymentmethod">
+  <span class="text-white text-normal pe-5 ">&copy;2007-2022Flipkart.com</span><img src="/m2/payment-card-method.svg" style="height:14px width=200px">  
+</div> 
+
+</footer>
+
+<!-- Footer Ends -->
+
+<!-- Coupon Code -->
+<div id="coupon">
+
+  <button id="couponclose-btn" onclick="closeCoupon()">&times;</button>
+
+</div>
+
+<script>
+
+window.onload=loadCoupon()
+
+</script>
+
+ <!--GeoLocation-->
+ <script>
+  let x = document.getElementById('out');
+  let y = document.getElementById('weather');
+
+  function geolocation(){
+      if(navigator.geolocation){
+          navigator.geolocation.getCurrentPosition(showPosition)
+      }else{
+          x.innerText = "Geo Not Supported"
+      }
+  }
+
+  function showPosition(data){
+      console.log(data);
+      let lat = data.coords.latitude;
+      let long = data.coords.longitude;
+      let out = `Latitude is ${lat} & longitude is ${long}`
+      x.innerText = out
+      const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+      ///api calling
+      fetch(url,{method: 'GET'})
+      //return promise
+      .then((res) => res.json())
+      //return data
+      .then((data) => {
+          console.log(data)
+          let city = data.city.name
+          let temp = data.list[0].temp.day
+          y.innerText = `City ${city} temp ${temp} °C`
+      })
+  }
+
+</script>
+
+</body>
+</html>
+    
+   
+
