@@ -435,7 +435,7 @@ nav a .bi-star{
 .s-bg-image-3{
     height:320px;
     width:200px;
-    background-image: url(/m2/m3-1kitchen.webp);
+    background-image: url("https://i.ibb.co/k2ymkJB/m3-1kitchen.webp");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -448,19 +448,23 @@ nav a .bi-star{
     background-color: #fff;
 }
 
+
+
 .s-bg-image-4{
     height:320px;
     width:200px;
-    background-image: url(/m2/m4-Fashiondeals.webp);
+    background-image: url("https://i.ibb.co/HqHLcTP/m4-Fashiondeals.webp");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
+
+
 .s-bg-image-5{
     height:320px;
     width:200px;
-    background-image: url(/m2/m5-furniture1.webp);
+    background-image: url("https://i.ibb.co/4gKZbfV/m-5-Furniture.webp");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -485,7 +489,7 @@ nav a .bi-star{
 .s-bg-image-6{
     height:320px;
     width:200px;
-    background-image: url(/m2/m6-newyeargifts.webp);
+    background-image: url("https://i.ibb.co/G95n9Fh/m6-newyeargifts.webp");
     background-repeat: no-repeat;
     background-size: cover;
 
