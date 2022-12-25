@@ -1,0 +1,67 @@
+[
+
+{
+    "item_id": 1,
+    "description": "Kadio Analog 31.5 cm X 31.5 cm Wall Clock  (Maroon, With Glass, Standard)",
+    "Image" : "https://i.ibb.co/K6XjVsS/m3-clock.webp",
+    "category-id" : 2,
+    "category"    : "Kitchen_Appliances",
+    "stars": 4.2,
+    "ratings": "129 Ratings ",
+    "reviews": " 16 Reviews",
+    "new_price": 349,
+    "old_price": 999,
+    "discount": 65,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+
+{
+    "item_id": 2,
+    "description": "Royalbox Meditating Buddha Statue For Home Decor Idol/Showpiece Decorative Showpiece - 22 cm  (Polyresin, Copper)",
+    "Image" : "https://i.ibb.co/tLyPZv5/m3-showpiece.webp",
+    "category-id" : 2,
+    "category"    : "Kitchen_Appliances",
+    "stars": 4.3,
+    "ratings": "622 Ratings ",
+    "reviews": " 63 Reviews",
+    "new_price": 350,
+    "old_price": 999,
+    "discount": 64,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 3,
+    "description": "Halonix 10W Round B22 Neo Radar Motion Sensor bulb Pack of 1  (White)",
+    "Image" : "https://i.ibb.co/hm55DW7/m3-bulbs.webp",
+    "category-id" : 2,
+    "category"    : "Kitchen_Appliances",
+    "stars": 3.8,
+    "ratings": "7745 Ratings ",
+    "reviews": " 1,007 Reviews",
+    "new_price": 284,
+    "old_price": 299,
+    "discount": 5,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 4,
+    "description": "mohit creation 235 TC Cotton King Printed Flat Bedsheet  (Pack of 1, Pink)    ",
+    "Image" : "https://i.ibb.co/6WhgZyK/m3-bedcovers.webp",
+    "category-id" : 2,
+    "category"    : "Kitchen_Appliances",
+    "stars": 3.8,
+    "ratings": "4,561 Ratings ",
+    "reviews": " 428 Reviews",
+    "new_price": 386,
+    "old_price": 1399,
+    "discount": 72,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+}
+ 
+]

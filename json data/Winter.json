@@ -1,0 +1,68 @@
+[
+
+    {
+        "item_id": 1,
+        "description": "Solid Winter Men Gloves",
+        "Image" : "https://i.ibb.co/RHD157t/m7-gloves.webp",
+        "category-id" : 6,
+        "category"    : "Winter_Essentials",
+        "stars": 3.6,
+        "ratings": "99 Ratings ",
+        "reviews": " 5 Reviews",
+        "new_price": 464,
+        "old_price": 999,
+        "discount": 53,
+        "delivery_type": "Free delivery",
+        "offer": "Special Price Offer"
+    },
+    
+    {
+        "item_id": 2,
+        "description": "Men Solid Padded Jacket",
+        "Image" : "https://i.ibb.co/tBtCT2h/m7-jacket.webp",
+        "category-id" : 6,
+        "category"    : "Winter_Essentials",
+        "stars": 3.8,
+        "ratings": "52,783 Ratings ",
+        "reviews": " 5,537 Reviews",
+        "new_price": 649,
+        "old_price": 2999,
+        "discount": 78,
+        "delivery_type": "Free delivery",
+        "offer": "Special Price Offer"
+    },
+       
+    {
+        "item_id": 3,
+        "description": "LA VERNE Self Design Double Mink Blanket for Heavy Winter  (Woollen Blend, Grey)",
+        "Image" : "https://i.ibb.co/nRd4Mjj/m7-blankets.webp",
+        "category-id" : 6,
+        "category"    : "Winter_Essentials",
+        "stars": 3.7,
+        "ratings": "3,635 Ratings ",
+        "reviews": " 334 Reviews",
+        "new_price": 549,
+        "old_price": 3299,
+        "discount": 83,
+        "delivery_type": "Free delivery",
+        "offer": "Special Price Offer"
+    },
+       
+    {
+        "item_id": 4,
+        "description": "Greenchef 800W Flash Quartz Room Heater",
+        "Image" : "https://i.ibb.co/zPV1rV5/m7-roomheaters1.webp",
+        "category-id" : 6,
+        "category"    : "Winter_Essentials",
+        "stars": 4,
+        "ratings": "12 Ratings ",
+        "reviews": " 2 Reviews",
+        "new_price": 999,
+        "old_price": 1999,
+        "discount": 50,
+        "Warranty" : "1 year warranty from purchase date",
+        "delivery_type": "Free delivery",
+        "offer": "Special Price Offer"
+    }
+    
+    ]

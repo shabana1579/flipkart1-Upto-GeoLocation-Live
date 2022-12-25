@@ -1,0 +1,70 @@
+[
+{
+    "item_id": 1,
+    "description": "dji OM4 SE 3 Axis Gimbal  (230)",
+    "Image" : "https://i.ibb.co/Z8gmZP2/m2-2mobileholder.webp",
+    "category-id" : 1,
+    "category"    : "Electronics",
+    "stars": 4.3,
+    "ratings": "2290 Ratings ",
+    "reviews": " 254 Reviews",
+    "new_price": 8499 ,
+    "old_price": 9990,
+    "discount": 14,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+
+{
+    "item_id": 2,
+    "description": "SONY Alpha Full Frame ILCE-7M2K/BQ IN5 Mirrorless Camera Body with 28 - 70 mm Lens  (Black)",
+    "Image" : "https://i.ibb.co/Z6Dm1tj/m2-2camera.webp",
+    "category-id" : 1,
+    "category"    : "Electronics",
+    "stars": 4.5,
+    "ratings": "716 Ratings ",
+    "reviews": " 99 Reviews",
+    "new_price": 83999,
+    "old_price": 128990,
+    "discount": 34,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+
+
+},
+
+{
+    "item_id": 3,
+    "description": "SAMSUNG 22 inch Full HD IPS Panel Monitor (LF22T354FHWXXL)  (Response Time: 5 ms, 75 Hz Refresh Rate)",
+    "Image" : "https://i.ibb.co/mTBD6vP/m2-2tel.webp",
+    "category-id" : 1,
+    "category"    : "Electronics",
+    "stars": 4.4,
+    "ratings": "5675 Ratings ",
+    "reviews": " 716 Reviews",
+    "new_price": 8699,
+    "old_price": 17290,
+    "discount": 49,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+
+{
+    "item_id": 4,
+    "description": "ZEBRONICS Zeb-Pixa Play 12 with Dolby Audio Support & 720p HD (3000 lm / 1 Speaker / Remote Controller) Projector  (Black)",
+    "Image" : "https://i.ibb.co/t3jfLp0/m2-2projector.webp",
+    "category-id" : 1,
+    "category"    : "Electronics",
+    "stars": 4.1,
+    "ratings": "1753 Ratings ",
+    "reviews": " 322 Reviews",
+    "new_price": 10399,
+    "old_price": 21999,
+    "discount": 52,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+}
+
+
+
+]

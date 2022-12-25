@@ -1,0 +1,32 @@
+[
+    {
+        "category-id" : 1,
+        "category"    : "Electronics"
+    },
+
+    {
+        "category-id" : 2,
+        "category"    : "Kitchen_Appliances"
+    },
+
+    {
+        "category-id" : 3,
+        "category"    : "Fashion"
+    },
+
+    {
+        "category-id" : 4,
+        "category"    : "Furniture"
+    },
+
+    {
+        "category-id" : 5,
+        "category"    : "Wedding_Gifts"
+    },
+
+    {
+        "category-id" : 6,
+        "category"    : "Winter_Essentials"
+    }
+
+]

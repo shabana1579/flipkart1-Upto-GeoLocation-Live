@@ -1,0 +1,64 @@
+[
+
+{
+    "item_id": 1,
+    "description": "TOUCHWOOD Engineered Wood 2 Door Wardrobe  (Finish Color - Wenge, Mirror Included, DIY)",
+    "Image" : "https://i.ibb.co/D1zQym6/m5-wardrobe.webp",
+    "category-id" : 4,
+    "category"    : "Furniture",
+    "new_price": 10339,
+    "old_price": 19999,
+    "discount": 48,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+
+{
+    "item_id": 2,
+    "description": "Bharat Lifestyle Clinton Engineered Wood Queen Box Bed  (Finish Color - Wenge, Delivery Condition - Knock Down)",
+    "Image" : "https://i.ibb.co/y61xs8k/m5-bed.webp",
+    "category-id" : 4,
+    "category"    : "Furniture",
+    "stars": 3.5,
+    "ratings": "53 Ratings ",
+    "reviews": " 7 Reviews",
+    "new_price": 13999,
+    "old_price": 34999,
+    "discount": 60,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 3,
+    "description": "Jordyblue Marvin Fabric Manual Recliner  (Finish Color - Brown, DIY)",
+    "Image" : "https://i.ibb.co/SKr5HLd/m5-oneseater.webp",
+    "category-id" : 4,
+    "category"    : "Furniture",
+    "stars": 4.4,
+    "ratings": "475 Ratings ",
+    "reviews": " 95 Reviews",
+    "new_price": 15999,
+    "old_price": 40000,
+    "discount": 60,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 4,
+    "description": "limraz furniture FABRIC JUTE Fabric 3 Seater Sofa  (Finish Color - grey, Pre-assembled)",
+    "Image" : "https://i.ibb.co/3stz070/m5-threeseater.webp",
+    "category-id" : 4,
+    "category"    : "Furniture",
+    "stars": 3.9,
+    "ratings": "640 Ratings ",
+    "reviews": " 100 Reviews",
+    "new_price": 7999,
+    "old_price": 19000,
+    "discount": 57,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+}
+
+]

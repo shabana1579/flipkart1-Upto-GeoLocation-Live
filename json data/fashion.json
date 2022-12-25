@@ -1,0 +1,67 @@
+[
+
+{
+    "item_id": 1,
+    "description": "32.5 L Backpack Fizz Sch Bag  (Black, Blue)",
+    "Image" : "https://i.ibb.co/800DLBQ/m4-Bag.webp",
+    "category-id" : 3,
+    "category"    : "Fashion",
+    "stars": 4.2,
+    "ratings": "59,527 Ratings ",
+    "reviews": " 7,080 Reviews",
+    "new_price": 1279,
+    "old_price": 2300,
+    "discount": 44,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+
+{
+    "item_id": 2,
+    "description": "Flying Machine COX Sneakers For Men  (Black)",
+    "Image" : "https://i.ibb.co/gZMNQ8c/m4-shoes.webp",
+    "category-id" : 3,
+    "category"    : "Fashion",
+    "stars": 4.6,
+    "ratings": "1,022 Ratings ",
+    "reviews": " 163 Reviews",
+    "new_price": 1199,
+    "old_price": 1999,
+    "discount": 40,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 3,
+    "description": "Valentines Alloy Cubic Zirconia Gold Plated Ring",
+    "Image" : "https://i.ibb.co/nPdVvZq/m4-rings.webp",
+    "category-id" : 3,
+    "category"    : "Fashion",
+    "stars": 3.9,
+    "ratings": "4,874 Ratings ",
+    "reviews": " 556 Reviews",
+    "new_price": 215,
+    "old_price": 796,
+    "discount": 72,
+    "delivery_type": "Free delivery",
+    "offer": "Special Price Offer"
+},
+   
+{
+    "item_id": 4,
+    "description": "Women Kurta and Pant Set Art Silk",
+    "Image" : "https://i.ibb.co/0F0mrWY/m4-kurtis.webp",
+    "category-id" : 3,
+    "category"    : "Fashion",
+    "stars": 3.8,
+    "ratings": "4,561 Ratings ",
+    "reviews": " 428 Reviews",
+    "new_price": 386,
+    "old_price": 1399,
+    "discount": 72,
+    "delivery_type": "Free delivery",
+    "offer": "Special Price Offer"
+}
+
+]

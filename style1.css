@@ -18,7 +18,7 @@ body{
     margin-left:20%;
     position:absolute;
     z-index: 100;
-    margin-top: -140%;
+    margin-top: -190%;
     visibility:hidden;
 }
 
@@ -503,6 +503,21 @@ nav a .bi-star{
 
 }
 
+.s-bg-image-7{
+    height:320px;
+    width:200px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s_main7{
+    height:320px;
+    margin-top:14px;
+    /* border:1px dashed purple; */
+    background-color: #fff;
+}
 
 
 /* .s_main7{

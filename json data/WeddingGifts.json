@@ -1,0 +1,68 @@
+[
+
+{
+    "item_id": 1,
+    "description": "SAF Digital Reprint 18 inch x 12 inch Painting  (With Frame, Pack of 3)",
+    "Image" : "https://i.ibb.co/KxN2k7N/m6-Paintings.webp",
+    "category-id" : 5,
+    "category"    : "Wedding_Gifts",
+    "stars": 4.1,
+    "ratings": "9,659 Ratings ",
+    "reviews": " 985 Reviews",
+    "new_price": 169,
+    "old_price": 399,
+    "discount": 57,
+    "dimensions": "18 X 12 inches",
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+
+{
+    "item_id": 2,
+    "description": "Vooy Gold Plated Crystal Candle Holder Brass Candle Holder  (Gold, Pack of 2)",
+    "Image" : "https://i.ibb.co/xSVgW4X/m6-candles.webp",
+    "category-id" : 5,
+    "category"    : "Wedding_Gifts",
+    "stars": 4.3,
+    "ratings": "1,022 Ratings ",
+    "reviews": " 118 Reviews",
+    "new_price": 388,
+    "old_price": 878,
+    "discount": 55,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 3,
+    "description": "Party White, Gold Clutch",
+    "Image" : "https://i.ibb.co/YWmcwfm/m6-clutches.webp",
+    "category-id" : 5,
+    "category"    : "Wedding_Gifts",
+    "stars": 4.1,
+    "ratings": "118 Ratings ",
+    "reviews": " 14 Reviews",
+    "new_price": 703,
+    "old_price": 4999,
+    "discount": 85,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+},
+   
+{
+    "item_id": 4,
+    "description": "Alloy Gold-plated Jewel Set  (Gold)",
+    "Image" : "https://i.ibb.co/wLcQz8Y/m6-weddingjewellery.webp",
+    "category-id" : 5,
+    "category"    : "Wedding_Gifts",
+    "stars": 3.8,
+    "ratings": "9,603 Ratings ",
+    "reviews": " 636 Reviews",
+    "new_price": 352,
+    "old_price": 7345,
+    "discount": 95,
+    "delivery_type": "Free delivery",
+    "offer": "Bank Offer"
+}
+
+]
