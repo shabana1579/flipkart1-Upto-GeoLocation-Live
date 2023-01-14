@@ -1,0 +1,1 @@
+mongodb+srv://shabana:shabana123@cluster0.6zpxlvz.mongodb.net/?retryWrites=true&w=majority

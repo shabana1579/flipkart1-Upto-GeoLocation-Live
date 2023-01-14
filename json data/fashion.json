@@ -1,14 +1,12 @@
-[
-
-{
+[{
     "item_id": 1,
     "description": "32.5 L Backpack Fizz Sch Bag  (Black, Blue)",
     "Image" : "https://i.ibb.co/800DLBQ/m4-Bag.webp",
     "category-id" : 3,
     "category"    : "Fashion",
     "stars": 4.2,
-    "ratings": "59,527 Ratings ",
-    "reviews": " 7,080 Reviews",
+    "ratings": 59527,
+    "reviews":  7080,
     "new_price": 1279,
     "old_price": 2300,
     "discount": 44,
@@ -23,8 +21,8 @@
     "category-id" : 3,
     "category"    : "Fashion",
     "stars": 4.6,
-    "ratings": "1,022 Ratings ",
-    "reviews": " 163 Reviews",
+    "ratings": 1022,
+    "reviews":  163,
     "new_price": 1199,
     "old_price": 1999,
     "discount": 40,
@@ -39,8 +37,8 @@
     "category-id" : 3,
     "category"    : "Fashion",
     "stars": 3.9,
-    "ratings": "4,874 Ratings ",
-    "reviews": " 556 Reviews",
+    "ratings": 4874,
+    "reviews":  556,
     "new_price": 215,
     "old_price": 796,
     "discount": 72,
@@ -55,13 +53,11 @@
     "category-id" : 3,
     "category"    : "Fashion",
     "stars": 3.8,
-    "ratings": "4,561 Ratings ",
-    "reviews": " 428 Reviews",
+    "ratings": 4561,
+    "reviews":  428,
     "new_price": 386,
     "old_price": 1399,
     "discount": 72,
     "delivery_type": "Free delivery",
     "offer": "Special Price Offer"
-}
-
-]
+}]

@@ -1,14 +1,12 @@
-[
-
-{
+[{
     "item_id": 1,
     "description": "Kadio Analog 31.5 cm X 31.5 cm Wall Clock  (Maroon, With Glass, Standard)",
     "Image" : "https://i.ibb.co/K6XjVsS/m3-clock.webp",
     "category-id" : 2,
     "category"    : "Kitchen_Appliances",
     "stars": 4.2,
-    "ratings": "129 Ratings ",
-    "reviews": " 16 Reviews",
+    "ratings": 129,
+    "reviews":  16,
     "new_price": 349,
     "old_price": 999,
     "discount": 65,
@@ -23,8 +21,8 @@
     "category-id" : 2,
     "category"    : "Kitchen_Appliances",
     "stars": 4.3,
-    "ratings": "622 Ratings ",
-    "reviews": " 63 Reviews",
+    "ratings": 622,
+    "reviews":  63,
     "new_price": 350,
     "old_price": 999,
     "discount": 64,
@@ -39,8 +37,8 @@
     "category-id" : 2,
     "category"    : "Kitchen_Appliances",
     "stars": 3.8,
-    "ratings": "7745 Ratings ",
-    "reviews": " 1,007 Reviews",
+    "ratings": 7745,
+    "reviews":  1007,
     "new_price": 284,
     "old_price": 299,
     "discount": 5,
@@ -55,13 +53,11 @@
     "category-id" : 2,
     "category"    : "Kitchen_Appliances",
     "stars": 3.8,
-    "ratings": "4,561 Ratings ",
-    "reviews": " 428 Reviews",
+    "ratings": 4561,
+    "reviews":  428,
     "new_price": 386,
     "old_price": 1399,
     "discount": 72,
     "delivery_type": "Free delivery",
     "offer": "Bank Offer"
-}
- 
-]
+}]

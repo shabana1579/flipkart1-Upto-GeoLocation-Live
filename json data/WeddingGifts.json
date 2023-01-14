@@ -1,14 +1,12 @@
-[
-
-{
+[{
     "item_id": 1,
     "description": "SAF Digital Reprint 18 inch x 12 inch Painting  (With Frame, Pack of 3)",
     "Image" : "https://i.ibb.co/KxN2k7N/m6-Paintings.webp",
     "category-id" : 5,
     "category"    : "Wedding_Gifts",
     "stars": 4.1,
-    "ratings": "9,659 Ratings ",
-    "reviews": " 985 Reviews",
+    "ratings": 9659,
+    "reviews": 985,
     "new_price": 169,
     "old_price": 399,
     "discount": 57,
@@ -24,8 +22,8 @@
     "category-id" : 5,
     "category"    : "Wedding_Gifts",
     "stars": 4.3,
-    "ratings": "1,022 Ratings ",
-    "reviews": " 118 Reviews",
+    "ratings": 1022,
+    "reviews": 118,
     "new_price": 388,
     "old_price": 878,
     "discount": 55,
@@ -40,8 +38,8 @@
     "category-id" : 5,
     "category"    : "Wedding_Gifts",
     "stars": 4.1,
-    "ratings": "118 Ratings ",
-    "reviews": " 14 Reviews",
+    "ratings": 118,
+    "reviews": 14,
     "new_price": 703,
     "old_price": 4999,
     "discount": 85,
@@ -56,13 +54,11 @@
     "category-id" : 5,
     "category"    : "Wedding_Gifts",
     "stars": 3.8,
-    "ratings": "9,603 Ratings ",
-    "reviews": " 636 Reviews",
+    "ratings": 9603,
+    "reviews": 636,
     "new_price": 352,
     "old_price": 7345,
     "discount": 95,
     "delivery_type": "Free delivery",
     "offer": "Bank Offer"
-}
-
-]
+}]

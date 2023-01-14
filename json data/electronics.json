@@ -1,13 +1,12 @@
-[
-{
+[{
     "item_id": 1,
     "description": "dji OM4 SE 3 Axis Gimbal  (230)",
     "Image" : "https://i.ibb.co/Z8gmZP2/m2-2mobileholder.webp",
     "category-id" : 1,
     "category"    : "Electronics",
     "stars": 4.3,
-    "ratings": "2290 Ratings ",
-    "reviews": " 254 Reviews",
+    "ratings": 2290,
+    "reviews": 254,
     "new_price": 8499 ,
     "old_price": 9990,
     "discount": 14,
@@ -22,15 +21,13 @@
     "category-id" : 1,
     "category"    : "Electronics",
     "stars": 4.5,
-    "ratings": "716 Ratings ",
-    "reviews": " 99 Reviews",
+    "ratings": 716,
+    "reviews": 99,
     "new_price": 83999,
     "old_price": 128990,
     "discount": 34,
     "delivery_type": "Free delivery",
     "offer": "Bank Offer"
-
-
 },
 
 {
@@ -40,8 +37,8 @@
     "category-id" : 1,
     "category"    : "Electronics",
     "stars": 4.4,
-    "ratings": "5675 Ratings ",
-    "reviews": " 716 Reviews",
+    "ratings": 5675,
+    "reviews":  716,
     "new_price": 8699,
     "old_price": 17290,
     "discount": 49,
@@ -56,15 +53,11 @@
     "category-id" : 1,
     "category"    : "Electronics",
     "stars": 4.1,
-    "ratings": "1753 Ratings ",
-    "reviews": " 322 Reviews",
+    "ratings": 1753,
+    "reviews":  322,
     "new_price": 10399,
     "old_price": 21999,
     "discount": 52,
     "delivery_type": "Free delivery",
     "offer": "Bank Offer"
-}
-
-
-
-]
+}]
